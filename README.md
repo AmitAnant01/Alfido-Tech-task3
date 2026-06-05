@@ -1,10 +1,10 @@
-# 🚀 ML Model Deployment — API & Containerization
+# ML Model Deployment — API & Containerization
 
 A production-ready REST API that wraps a trained **Iris classification model** (RandomForest) using **FastAPI**, served with **Uvicorn**, and containerized with **Docker**.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ml-api-project/
@@ -23,7 +23,7 @@ ml-api-project/
 
 ---
 
-## ⚡ Quick Start (Local)
+## Quick Start (Local)
 
 ### 1. Install dependencies
 ```bash
@@ -36,8 +36,8 @@ python train_model.py
 ```
 Output:
 ```
-✅ Accuracy: 100.00%
-💾 Model saved to model/iris_model.pkl
+Accuracy: 100.00%
+Model saved to model/iris_model.pkl
 ```
 
 ### 3. Start the API
@@ -51,7 +51,7 @@ Open **http://localhost:8000/docs** in your browser (Swagger UI auto-generated b
 
 ---
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ### Build & run with Docker
 ```bash
@@ -69,7 +69,7 @@ docker-compose up --build
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -137,7 +137,7 @@ curl http://localhost:8000/health
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 ```bash
 pytest tests/ -v
@@ -145,7 +145,7 @@ pytest tests/ -v
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -159,7 +159,3 @@ pytest tests/ -v
 
 ---
 
-## 👤 Author
-
-**Amit** — ML Engineer & Data Science Student  
-B.E. Computer Science Engineering (2027)
